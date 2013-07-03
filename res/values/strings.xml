@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CloudBackup</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">CloudBackup</string>
+    <string name="qqLogin">登陆QQ</string>
+    <string name="qqLogout">注销QQ</string>
+    <string name="btn_upload">上传</string>
+    <string name="btn_download">下载</string>
+    <string name="btn_make_dir">新建目录</string>
+    <string name="btn_encryption">加密文件</string>
+    <string name="btn_decryption">解密文件</string>
+    <string name="btn_zip">压缩文件</string>
+    <string name="btn_unzip">解压缩文件</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="file_operation">文件操作</string>
+    <string name="activity_temp">Temp</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_info">关于软件：\n
+        作者：齐士垚\n
+        日期：2013.5.9\n
+        版本：V1.0\n
+        功能：使用QQ OAuth平台进行认证，使用微云开放平台进行数据云端备份</string>
+    <string name="explorer">文件浏览器</string>
+    <string name="fileexplorer">文件浏览器</string>
+    <string name="title_activity_compress">CompressActivity</string>
+    <string name="passwd_label">密码</string>
+    <string name="editText_passwd_hint">请输入密码，不加密则留空！</string>
+    <string name="btn_positive">确定</string>
+    <string name="btn_reset">重置</string>
+    <string name="title_activity_passwd">Passwd</string>
+    <string name="btn_auto">自动</string>
+
+</resources>

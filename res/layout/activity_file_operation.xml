@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+        <!-- 上传按钮 -->
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/btn_upload" />
+        <!-- 下载按钮 -->
+
+        <Button
+            android:id="@+id/btn_download"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/btn_download" />
+        <!-- 新建目录按钮 -->
+
+        <Button
+            android:id="@+id/btn_make_dir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/btn_make_dir" />
+        <!-- 加密按钮 -->
+
+        <Button
+            android:id="@+id/btn_encryption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/btn_encryption" />
+        <!-- 上传按钮 -->
+
+        <Button
+            android:id="@+id/btn_decryption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/btn_decryption" />
+        <!-- 压缩按钮 -->
+
+        <Button
+            android:id="@+id/btn_zip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/btn_zip" />
+        <!-- 解压缩按钮 -->
+
+        <Button
+            android:id="@+id/btn_unzip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/btn_unzip" />
+    </LinearLayout>
+
+</LinearLayout>

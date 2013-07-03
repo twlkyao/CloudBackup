@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="choices">
+        <item>上传</item>
+        <item>下载</item>
+        <item>创建目录</item>
+        <item>加密</item>
+        <item>解密</item>
+        <item>压缩</item>
+        <item>解压缩</item>
+    </array>
+
+</resources>
